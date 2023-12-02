@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+    <link rel="stylesheet" href="2160885-homework4.css"> 
+</head>
+<body>
+    <!-- header -->
+    <p valign="bottom" id="date-time" align="right"></p>
+    <img src="TakenMedical.png"
+    alt="TakenMedical" width="180" height="120">
+    
+    <hr>
+    <h1>Thank you for your submission</h1>
+    
+</body>
+<footer>
+    <hr>
+    <table>
+        <tr>
+             <td><p id="footer-text">Taken Medical</p></td>
+             <td><button type="button" id="ContactButton">Contact Us</button></td>
+        </tr>
+        <tr>
+            <td><p id="footer-text">Creator: Aman Ali</p></td>
+        </tr>
+    </table>
+</footer>
+<script>         
+    var date = new Date();
+    var day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var month = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    document.getElementById('date-time').innerHTML = "Today is: " + day[date.getDay()] + " " + month[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
+</script>
+</html>
+

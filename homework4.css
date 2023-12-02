@@ -1,0 +1,105 @@
+  body {
+    background-color: rgb(255, 246, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    padding: 1rem 10rem;
+}
+div{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(255, 246, 255);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    /* color: rgb(151, 91, 91); */
+    color: #FF66C4;
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+}
+
+p, span {
+    color: rgb(151, 91, 91);
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+#footer-text{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#SubmitButton{
+    border: none;
+    padding: 1rem;
+    background-color: green;
+    color: white;
+}
+
+#ReviewButton{
+    border: none;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+}
+
+#ClearButton{
+    border: none;
+    padding: 1rem;
+    background-color: rgb(181, 39, 39);
+    color: white;
+}
+
+#ContactButton{
+    border: none;
+    padding: 1rem;
+    background-color: rgb(45, 161, 255);
+    color: white;
+}
+
+#DateHeader{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FF66C4;
+}
+
+#name{
+    
+    font-style: bold;
+    color: rgb(151, 91, 91);
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+#value{
+    font-style: bold;
+    color: rgb(151, 91, 91);
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+#reviewData{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#contentBreak{
+    height: 2px;
+    width: 95%;
+    border: 1px black;
+    background-color: black;
+}
